@@ -17,7 +17,7 @@ attr_accessor :name
   end
   
   def self.print_all
-    puts @@all.each{|dog| dog.name}
+    puts @@all.collect{|dog| dog.name}
   end
   
   def save
