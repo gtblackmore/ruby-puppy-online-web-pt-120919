@@ -17,8 +17,8 @@ attr_accessor :name
   end
   
   def self.print_all
-    @@all.each do |name|
-      print name
+    @@all.each do |@name|
+      print @name
     end
   end
 end
