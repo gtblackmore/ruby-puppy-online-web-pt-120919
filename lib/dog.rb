@@ -17,7 +17,7 @@ attr_accessor :name
   end
   
   def self.print_all
-    @@all.each{|dog| print dog}
+    @@all.each{|self| print self}
       
     
   end
